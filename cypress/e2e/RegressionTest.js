@@ -10,6 +10,6 @@ describe("Quales Course Management Test Suite", () => {
     cy.get('[data-testid="EmailAddress"]').type("ay@mail.com");
     cy.get('[data-testid="Password"]').type("pass1234");
     cy.get(".MuiButton-contained").click();
-    cy.get(".MuiGrid-root > .MuiButton-root").click();
+    // cy.get(".MuiGrid-root > .MuiButton-root").click();
   });
 });
